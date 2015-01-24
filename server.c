@@ -2,8 +2,8 @@
     * 文件名：pthread_server.c
     * 文件描述：创建子线程来接收客户端的数据
     ***************************************************/ 
-#include "file_ops.h"    
-#include <sys/types.h> 
+    #include "file_ops.h"    
+    #include <sys/types.h> 
     #include <sys/stat.h>
     #include <sys/socket.h>
     #include <netinet/tcp.h> 
